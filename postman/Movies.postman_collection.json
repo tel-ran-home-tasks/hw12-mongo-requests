@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "6e74c2c7-6047-4769-a11b-5a935002d88e",
+		"name": "Movies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43802838",
+		"_collection_link": "https://victor-5810979.postman.co/workspace/Java-29~36d4752c-aabf-4a30-b7b6-84891e0dffb1/collection/43802838-6e74c2c7-6047-4769-a11b-5a935002d88e?action=share&source=collection_link&creator=43802838"
+	},
+	"item": [
+		{
+			"name": "LowerImdbThanTomatoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/lower-imdb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"lower-imdb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RussianLang",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/russian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"russian"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ComedyFilms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/comedy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"comedy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TopAwards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/top",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"top"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GroupedByImdbAndYear",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/movies/imdb-2010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"movies",
+						"imdb-2010"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
